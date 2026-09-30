@@ -44,6 +44,7 @@ index.php berperan sebagai Front Controller, yaitu satu titik masuk utama untuk 
 | home/info/mvc | Home | info | mvc | home/info.php |
 | info/routing | Home | info | routing | home/info.php |
 | sewa/mpbil/1 | Home | sewa | 1 | home/sewa.php |
+
 Tambahkan satu baris untuk route hasil Tahap Modifikasi ATM yang dibuat berdasarkan objek atau konteks
 aplikasi DPW, kemudian jelaskan pemetaan route → Controller → method → parameter → View.
 URL atau Route (sewa/mobil/1) ditangkap oleh Router, dipetakan ke Controller (Home) mengeksekusi method (sewa) dengan mengirimkan parameter nilai (1) lalu Controller memanggil View (home/sewa.php) untuk menampilkan datanya.
