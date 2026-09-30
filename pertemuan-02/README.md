@@ -66,6 +66,10 @@ diimplementasikan pada P3.
 ## 7. Hasil Pengujian dan Debugging
 ### Gambar 1. Hasil Pengujian debugging
 ![Gambar 1 - Hasil debugging](dokumentasi/latihan.jpg)
+Valid:Akses http://localhost/dpwl-2522500005/ Berhasil menampilkan halaman utama.   
+Akses .../index.php/info/routing Berhasil menampilkan topik "routing".   
+Tidak Valid:Akses .../index.php/tidakada Menghasilkan HTTP 404: "Controller tidak ditemukan."   
+Akses .../index.php/home/tidakada Menghasilkan HTTP 404: "Method tidak ditemukan."  
 ## 8. Bukti Tangkapan Layar
 Sisipkan gambar yang relevan dari folder dokumentasi/ dengan perintah:
 ### Gambar 1. Hasil Pengujian Halaman Utama
