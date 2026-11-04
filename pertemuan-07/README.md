@@ -1,1 +1,6 @@
 # pertemuan-07
+## Bukti Pengujian
+
+### 1. Halaman Dashboard Admin (index.php/admin/mobil)
+![Halaman Dashboard Admin](dokumentasi/before1.png)
+![Halaman Dashboard Admin](dokumentasi/after2.png)
