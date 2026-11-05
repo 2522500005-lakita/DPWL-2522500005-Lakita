@@ -8,12 +8,10 @@
 
 ### 3. Implementasi CRUD Berbasis MVC
 Pada bagian ini dilakukan pembuatan logika pengendali (*Controller*) serta antarmuka tampilan (*View*) untuk menampilkan data penyewa ke halaman web.
-
-#### A. Controller (`Mpenyewa_controller.php` / Controller Terkait)
+A. Controller (`Mpenyewa_controller.php`)
 * Membuat fungsi atau method baru di dalam controller admin untuk mengambil data dari model penyewa (berisi informasi seperti Username, Nama Lengkap, No. HP, Alamat, serta status unggahan berkas Foto KTP dan SIM A).
 * Mengatur alur pengiriman data (*passing data*) dari database agar dapat dibaca dan ditampilkan secara dinamis ke halaman antarmuka admin.
-
-#### B. View (`mpenyewa_view.php` / Tampilan Halaman)
+B. View (`mpenyewa_view.php`)
 * Merancang struktur tabel data menggunakan komponen AdminLTE yang menampilkan daftar penyewa secara rapi.
 * Menampilkan informasi detail per kolom yang meliputi:
   * **No, Username, Nama Lengkap, No. HP, dan Alamat.**
